@@ -1,4 +1,6 @@
-export const navItems = [
+import { NavItem } from "@/app/types/nav";
+
+export const navItems: NavItem[] = [
   { name: "Home", href: "/" },
   {
     name: "Destinations",
