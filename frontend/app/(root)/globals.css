@@ -37,6 +37,12 @@ h3 {
   font-family: 'Playfair Display', serif;
 }
 
+footer {
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Navbar transparent initial*/
 .navbar-root {
   background: transparent;
@@ -129,4 +135,23 @@ input:focus {
 .mobile-menu-content::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.08);
   border-radius: 4px;
+}
+
+/* Smooth abstract animation */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse {
+  animation: pulse-glow 6s infinite ease-in-out;
 }
