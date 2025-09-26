@@ -2,6 +2,7 @@
 
 import Navbar from "@/app/sections/Navbar";
 import Footer from "../sections/Footer";
+import Testimonials from "../sections/Testimonials";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <section className="h-[100vh] flex items-center justify-center">
         <p className="text-lg">Scroll down for more content...</p>
       </section>
+      <Testimonials />
       <Footer />
     </main>
   );

@@ -104,3 +104,104 @@ export const navItems: NavItem[] = [
   { name: "About Us", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
+
+export interface Testimonial {
+  id: number;
+  name: string;
+  location: string;
+  rating: number;
+  destination: string;
+  destinationImage: string;
+  review: string;
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    name: "Priya Sharma",
+    location: "Mumbai",
+    rating: 5,
+    destination: "Haridwar",
+    destinationImage:
+      "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1400&h=900&fit=crop&q=80",
+    review:
+      "The spiritual journey to Haridwar was absolutely divine! The Ganga Aarti and the calm riverside mornings were unforgettable. Everything was handled smoothly.",
+  },
+  {
+    id: 2,
+    name: "Rajesh Kumar",
+    location: "Delhi",
+    rating: 5,
+    destination: "Goa",
+    destinationImage:
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Goa delivered on every promise — beaches, food and service. The itinerary balanced relaxation with a few adventure days. Highly recommended.",
+  },
+  {
+    id: 3,
+    name: "Anita Patel",
+    location: "Ahmedabad",
+    rating: 4,
+    destination: "Kashmir",
+    destinationImage:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Kashmir is surreal. Shikara on Dal Lake and the local hospitality made the trip very memorable. A couple of hotels could be better but overall fantastic.",
+  },
+  {
+    id: 4,
+    name: "Vikram Singh",
+    location: "Bangalore",
+    rating: 5,
+    destination: "Jaipur",
+    destinationImage:
+      "https://images.unsplash.com/photo-1548013146-72479768bada?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Jaipur felt like stepping into history — forts, palaces and local cuisine. The team curated an immersive heritage experience for us.",
+  },
+  {
+    id: 5,
+    name: "Sneha Gupta",
+    location: "Lucknow",
+    rating: 5,
+    destination: "Kerala",
+    destinationImage:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Backwaters, houseboats and traditional cuisine — Kerala was restorative. The schedule had the right pace for relaxation and exploration.",
+  },
+  {
+    id: 6,
+    name: "Rohit Mehta",
+    location: "Chandigarh",
+    rating: 4,
+    destination: "Leh-Ladakh",
+    destinationImage:
+      "https://images.unsplash.com/photo-1508264165352-258a6bdf063d?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Ladakh road trip: breathtaking landscapes and well-managed logistics. Watch for altitude, but the scenery is worth it.",
+  },
+  {
+    id: 7,
+    name: "Neha Rao",
+    location: "Hyderabad",
+    rating: 5,
+    destination: "Rajasthan",
+    destinationImage:
+      "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1400&h=900&fit=crop&q=80",
+    review:
+      "From forts to desert camps, the Rajasthan itinerary was a highlight of our year. Great guides and authentic cultural experiences.",
+  },
+  {
+    id: 8,
+    name: "Amit Desai",
+    location: "Pune",
+    rating: 5,
+    destination: "Goa (North)",
+    destinationImage:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&h=900&fit=crop&q=80",
+    review:
+      "Another Goa trip, another flawless experience. This time with beachside stay and a sunset cruise — excellent value for money.",
+  },
+];
